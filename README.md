@@ -1,52 +1,65 @@
-**Tic-Tac-Toe Web Application**
-**Overview**
-This is a simple, interactive web-based version of the classic Tic-Tac-Toe game. It allows two players to play against each other by taking turns to place "X" or "O" in a 3x3 grid. The game provides a clean interface, and it detects the winner or a draw condition automatically.
+# Tic-Tac-Toe Web Game
 
-**Features**
-Interactive game board with a 3x3 grid.
-Two-player mode (local play).
-Automatic detection of the winner or a draw.
-Option to restart the game after it's over.
-User-friendly interface with responsive design.
+## Project Overview
 
-**Tech Stack**
-Frontend: HTML, CSS, JavaScript
-Optional Backend: Can be extended with Node.js, PHP, or any other backend for multiplayer support or game history tracking.
+The Tic-Tac-Toe Web Game is a simple and interactive web-based implementation of the classic Tic-Tac-Toe game. This project is designed using HTML, CSS, and JavaScript to provide an engaging user experience. It supports two-player gameplay, allowing users to take turns marking spaces in a 3x3 grid until a winner is determined.
 
-**How to Play**
+## Features
 
-Start the Game:
-The game begins with an empty 3x3 grid.
-Player 1 is assigned "X" and Player 2 is assigned "O".
+- **Interactive UI**: A user-friendly interface with a responsive grid layout.
+- **Two-Player Mode**: Play against a friend in real-time.
+- **Win Detection**: Automatic detection of winning conditions (row, column, diagonal).
+- **Draw Handling**: Displays a message when the game ends in a tie.
+- **Restart Option**: Ability to reset the game and start fresh.
 
-Take Turns:
-Players alternate placing their symbols ("X" or "O") by clicking on an empty cell in the grid.
+## Technologies Used
 
-Win or Draw:
-The game automatically checks for a win or draw after each turn.
-A player wins if they place three of their symbols in a horizontal, vertical, or diagonal line.
-If all cells are filled without any player winning, the game ends in a draw.
+- **HTML**: Structure of the game board.
+- **CSS**: Styling for the layout and responsiveness.
+- **JavaScript**: Game logic, event handling, and win conditions.
 
-Restart:
-After a win or draw, a Restart button will appear, allowing players to reset the game.
+## Project Structure
 
-**Setup Instructions**
+```
+Tic-Tac-Toe-Web/
+│── index.html   # Main HTML file
+│── style.css    # Stylesheet for UI
+│── script.js    # JavaScript logic for gameplay
+└── README.md    # Project documentation
+```
 
-**Clone the repository:**
-git clone https://github.com/your-username/tic-tac-toe-web.git
+## Installation & Usage
 
-**Navigate to the project directory:**
-cd tic-tac-toe-web
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/tic-tac-toe-web.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd tic-tac-toe-web
+   ```
+3. Open `index.html` in a web browser.
+4. Start playing!
 
-**Open the index.html file in a browser:**
-open index.html
+## How to Play
 
-**File Structure**
-tic-tac-toe-web/
-│
-├── index.html        # Main HTML file
-├── style.css         # Stylesheet for the game design
-└── script.js         # JavaScript file containing game logic
+1. The game starts with Player X.
+2. Players take turns clicking on empty grid spaces.
+3. The first player to align three marks (X or O) in a row, column, or diagonal wins.
+4. If all spaces are filled and no one wins, the game ends in a draw.
+5. Click the "Restart" button to reset the game.
 
-**Conclusion**
-This web-based Tic-Tac-Toe project demonstrates a simple and interactive game that can be further extended to include additional features such as single-player AI, multiplayer functionality, or more complex styling and animations.
+## Future Improvements
+
+- Implement AI-based single-player mode.
+- Add animations and sound effects.
+- Improve mobile responsiveness.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
+
+Enjoy playing Tic-Tac-Toe! 🚀
+
